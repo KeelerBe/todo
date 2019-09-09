@@ -1,0 +1,82 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.2em;
+	letter-spacing: 0.08em;
+	margin-left: 20px;
+
+	/*background-color: green;*/
+}
+
+ul {
+	margin-top: 50px;
+}
+
+/****** Todo Field ******/
+
+#field {
+	margin-top: 20px;
+}
+
+input {
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	font-weight: lighter;
+	letter-spacing: 0.08em;
+	border: none;
+	border-bottom: 1px solid #d9d9d9;
+	padding-left: 20px;
+}
+
+input:focus {
+	outline: none;
+}
+
+::placeholder {
+	color: #bfbfbf;
+}
+
+#todo-input {
+	width: 310px;
+}
+
+#submit {
+	color: white;
+	padding: 5px;
+	background-color: #343A40;
+	border: none;
+	border-radius: 5px;
+	font-size: 0.8em;
+	margin-left: 25px;
+}
+
+/****** Todo ******/
+
+div.list-group-item {
+	width: 400px;
+}
+
+/* Todo */
+
+.completed {
+	color: #d9d9d9;
+	text-decoration: line-through; 
+}
+
+.completed:hover {
+	text-decoration: line-through;
+}
+
+/* Icon */
+
+.fa-trash-alt, .fa-check {
+	float: right;
+	color: #d9d9d9;
+}
+
+.fa-check {
+	margin-right: 20px;
+}
+
+.fa-trash-alt:hover, .fa-check:hover {
+	color: #343A40;
+}
