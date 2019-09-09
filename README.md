@@ -1,5 +1,5 @@
 # todo
 A React todo app
 
-[Screenshot](screenshot.jpg)
+![Screenshot](screenshot.jpg)\
 [Demo](https://keeler-todo.herokuapp.com/)
